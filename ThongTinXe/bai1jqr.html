@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bai1jqr.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script></script>
+<body>
+    <div class="header">
+        <div class="col-sm-3">
+            <p id="hd1">NHẬP THÔNG TIN XE CỘ</p>
+            <form action="" onsubmit="return false" id="form-1">
+                <div class="form-group">
+                    <label for="xe" class="form-label">Tên Xe <span>*</span></label>
+                    <input id="xe" type="text" class="form-control">
+                    <p id="erXe"></p>
+                </div>
+                <div class="form-group">
+                    <label for="anh" class="form-label">Hình ảnh:</label>
+                    <input id="anh" type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="hangxe" class="form-label">Hãng Xe <span>*</span>:</label>
+                    <select name="" class="form-select" id="hangxe">
+                        <option value="" selected>-- Hãng Xe --</option>
+                        <option value="1">Honda</option>
+                        <option value="2">Yamaha</option>
+                        <option value="3">Vinfat</option>
+                    </select>
+                    <p id="erHangXe"></p>
+                </div>
+                <div class="form-group">
+                    <label for="giatien" class="form-label">Giá Tiền :</label>
+                    <input id="giatien" type="number" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="mota" class="form-label">Mô tả:</label>
+                    <textarea name="" id="mota" cols="30" rows="5" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="lienhe" class="form-label">Người liên hệ <span>*</span> :</label>
+                    <input id="lienhe" type="text" class="form-control">
+                    <p id="erLienHe"></p>
+                </div>
+                <div class="form-group">
+                    <label for="sdtlienhe" class="form-label">Số điện thoại người liên hệ <span>*</span> :</label>
+                    <input id="sdtlienhe" type="text" class="form-control">
+                    <p id="erNguoiLienHe"></p>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Email <span>*</span> :</label>
+                    <input id="email" type="email" class="form-control">
+                    <p id="erEmail"></p>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-success form-submit" id="luu">Lưu</button>
+                    <button type="reset" class="btn btn-warning">Xóa</button>
+                </div>
+
+
+            </form>
+        </div>
+        <div class="col-sm-9">
+            <p>QUAN LÝ DANH SÁCH XE CỘ</p>
+            <input type="text" name="" id="" class="form-control" placeholder="Tìm kiếm ...">
+            <table class="table table-bordered" id="bang">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Hình ảnh</th>
+                        <th>Tên xe</th>
+                        <th>Hãng xe</th>
+                        <th>Giá tiền</th>
+                        <th>Người liên hệ</th>
+                        <th>Số điện thoại người liên hệ</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="jquery-3.2.1.js"></script>
+    <script src="jquery-3.6.4.min.js"></script>
+    <script src="bai1jqr.js"></script>    
+</body>
+</html>

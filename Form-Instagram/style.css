@@ -1,0 +1,176 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+.left img{
+    height: 690px;
+}
+
+.slier {
+    position: absolute;
+    width: 277px;
+    height: 597px;
+    margin-left: 167.95px;
+    margin-top: -44px;
+    background-image: url(in_1.png);
+    background-size: cover;
+    animation-timing-function: linear;
+    animation: 3s sliceShow infinite;
+}
+
+@keyframes sliceShow {
+    0% {background-image: url(in_2.png);}
+    50% {background-image: url(in_3.png);}
+    100% {background-image: url(in_4.png);}
+}
+.right_top{
+    width: 350px;
+    height: 370px;
+    margin: 0px 0px 10px;
+    padding: 10px 0;
+    margin: 0px 0px 0px 10px;
+    align-items: center;
+    border: 2px solid #DBDBDB;
+    font-size: 100%;
+    position: relative;
+    bottom: 70px;
+
+}
+.logo_insta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.logo_insta img{
+    width: 180px;
+    height: 60px;
+}
+.nd1 ,.nd2{
+    margin: 25px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    font: inherit;
+    height: 38px;
+    width: 268px;
+   
+}
+.nd1 input ,.nd2 input{
+
+    width: 268px;
+    height: 38px;
+    border-radius: 4px;
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+}
+.logi_fb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -10px;
+    padding: 0px;
+}
+.logi_fb p {
+    margin: 10px;
+}
+.logi_fb :hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+
+.null{
+    border: none;
+    font: inherit;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+
+
+}
+.null p{
+    text-align: center;
+}
+button{
+
+    height: 38px;
+    width: 268px;
+    border-radius: 8px;
+    border: none;
+    background: #4DB5F9;
+    color: #fff;
+    font-size: 14px;
+
+}
+.nd4{
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.nd4:hover{
+    color: blue;
+    cursor: pointer;
+}
+.right_footer{
+    
+    margin: 40px 0px 0px 10px;
+    align-items: center;
+    border: 2px solid #DBDBDB;
+    font-size: 100%;
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+
+}
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app:hover{
+    cursor: pointer;
+    
+}
+.app_store img{
+    width: 130px;
+    height: 40px;
+}
+.app_store:hover{
+    transform: scale(1.1);
+}
+.app_ggplay img{
+    width: 130px;
+    height: 40px;
+    padding-left: 20px;
+}
+.app_ggplay:hover{
+    transform: scale(1.1);
+}
+.nd6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90px;
+    font-size: 18px;
+}
